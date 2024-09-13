@@ -9,7 +9,7 @@ use App\Models\Location;
 use App\Models\Source;
 use App\Notifications\LogEntryOccurred;
 use App\Notifications\NewLogEntry;
-use Illuminate\Notifications\Notification;
+use Illuminate\Support\Facades\Notification;
 
 class AddIssue
 {
